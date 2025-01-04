@@ -100,10 +100,5 @@ def determine_active_sector_weights(active, active_weights, benchmark, benchmark
 
     return active_sector_weights
 
-#data = determine_sic_concentration(list(portfolio_data['DAVP.X']),portfolio_data['DAVP.X Weight'])[1]
-#print(data)
-#pd.DataFrame(data).T.to_csv("sic.csv")
-
-print(determine_active_sector_weights(list(portfolio_data['OAKM.X']), list(portfolio_data['OAKM.X Weight']),0,0))
 
 
